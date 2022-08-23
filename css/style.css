@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#banner-container {
+    height: 650px;
+    background-image: url('../images/donation1.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#top-banner {
+    color: white;
+    text-align: center;
+    width: 50%;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.anchor-btn {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background-color: tomato;
+    padding: 10px 30px;
+    border-radius: 4px;
+}
