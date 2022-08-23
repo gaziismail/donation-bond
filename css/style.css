@@ -3,6 +3,14 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.text-center {
+    text-align: center;
+}
+
+.half-width {
+    width: 70%;
+}
+
 #banner-container {
     height: 650px;
     background-image: url('../images/donation1.jpg');
@@ -11,10 +19,8 @@ body {
     align-items: center;
 }
 
-#top-banner {
+.text-white {
     color: white;
-    text-align: center;
-    width: 50%;
 }
 
 h1 {
@@ -24,7 +30,6 @@ h1 {
 .anchor-btn {
     text-decoration: none;
     font-weight: bold;
-    color: white;
     background-color: tomato;
     padding: 10px 30px;
     border-radius: 4px;
@@ -36,25 +41,20 @@ h2 {
 
 #donate-container {
     margin-top: 80px;
-    width: 50%;
-    margin-left: 25%;
+    margin-left: 15%;
 }
 
-#donate-heading {
-    text-align: center;
-}
-
-#donate-price-list {
+#donate-amount-list {
     display: flex;
     justify-content: space-between;
 }
 
-.donate-price {
+.donate-amount {
     background-color: lightgray;
     padding: 20px 50px;
     border-radius: 5px;
 }
-#donate-price-highlight {
+#donate-amount-highlight {
     background-color: rgba(238, 180, 188, 0.582);
     border: 2px solid tomato;
     color: rgb(253, 78, 47);
@@ -63,7 +63,6 @@ h2 {
 }
 #price-input-area {
     margin-top: 50px;
-    text-align: center;
 }
 #amount-input {
     border: none;
@@ -72,6 +71,28 @@ h2 {
 input:focus {
     outline: none;
 }
-input:-moz-placeholder {
-    text-align: center;
+
+#donation-plan-container {
+    margin-top: 80px;
+    margin-left: 15%;
+}
+
+#donation-plan {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.donation-card {
+    width: 28%;
+    padding: 50px 20px;
+    border-radius: 5px;
+}
+#card1 {
+    background-color: rgba(173, 216, 230, 0.39);
+}
+#card2 {
+    background-color: rgba(238, 180, 188, 0.582);
+}
+#card3 {
+    background-color: rgba(255, 228, 196, 0.473);
 }
