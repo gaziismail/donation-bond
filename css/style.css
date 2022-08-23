@@ -58,9 +58,12 @@ h2 {
 #donate-amount-highlight {
     background-color: rgba(238, 180, 188, 0.582);
     border: 2px solid tomato;
-    color: rgb(253, 78, 47);
     padding: 20px 45px;
     border-radius: 5px;
+}
+
+.text-red {
+    color: rgb(253, 78, 47);
 }
 
 #price-input-area {
@@ -127,4 +130,7 @@ input:focus {
     margin-top: 100px;
     background-color: black;
     padding: 30px 0px;
+}
+#stylish-text {
+    font-family: 'Lobster', cursive;
 }
