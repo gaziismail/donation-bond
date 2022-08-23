@@ -8,7 +8,7 @@ body {
 }
 
 .half-width {
-    width: 70%;
+    width: 50%;
 }
 
 #banner-container {
@@ -41,7 +41,7 @@ h2 {
 
 #donate-container {
     margin-top: 80px;
-    margin-left: 15%;
+    margin-left: 25%;
 }
 
 #donate-amount-list {
@@ -51,29 +51,34 @@ h2 {
 
 .donate-amount {
     background-color: lightgray;
-    padding: 20px 50px;
+    padding: 20px 45px;
     border-radius: 5px;
 }
+
 #donate-amount-highlight {
     background-color: rgba(238, 180, 188, 0.582);
     border: 2px solid tomato;
     color: rgb(253, 78, 47);
-    padding: 20px 50px;
+    padding: 20px 45px;
     border-radius: 5px;
 }
+
 #price-input-area {
     margin-top: 50px;
 }
+
 #amount-input {
     border: none;
     font-size: 16px;
 }
+
 input:focus {
     outline: none;
 }
 
 #donation-plan-container {
     margin-top: 80px;
+    width: 70%;
     margin-left: 15%;
 }
 
@@ -82,17 +87,39 @@ input:focus {
     display: flex;
     justify-content: space-between;
 }
+
 .donation-card {
     width: 28%;
     padding: 50px 20px;
     border-radius: 5px;
 }
+
 #card1 {
     background-color: rgba(173, 216, 230, 0.39);
 }
+
 #card2 {
     background-color: rgba(238, 180, 188, 0.582);
 }
+
 #card3 {
     background-color: rgba(255, 228, 196, 0.473);
+}
+
+#update-container {
+    margin-top: 90px;
+    margin-left: 25%;
+}
+
+#subscribe-input {
+    background-color: bisque;
+    padding: 60px 0px;
+}
+
+#subscribe-btn {
+    border: none;
+    padding: 13px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: lightgray;
 }
