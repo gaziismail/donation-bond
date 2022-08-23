@@ -29,3 +29,49 @@ h1 {
     padding: 10px 30px;
     border-radius: 4px;
 }
+
+h2 {
+    font-size: 30px;
+}
+
+#donate-container {
+    margin-top: 80px;
+    width: 50%;
+    margin-left: 25%;
+}
+
+#donate-heading {
+    text-align: center;
+}
+
+#donate-price-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.donate-price {
+    background-color: lightgray;
+    padding: 20px 50px;
+    border-radius: 5px;
+}
+#donate-price-highlight {
+    background-color: rgba(238, 180, 188, 0.582);
+    border: 2px solid tomato;
+    color: rgb(253, 78, 47);
+    padding: 20px 50px;
+    border-radius: 5px;
+}
+#price-input-area {
+    margin-top: 50px;
+    text-align: center;
+}
+#amount-input {
+    border: none;
+    font-size: 16px;
+}
+input:focus {
+    outline: none;
+}
+input:-moz-placeholder {
+    text-align: center;
+}
