@@ -39,12 +39,12 @@ h2 {
     font-size: 30px;
 }
 
-#donate-container {
+.container-margin {
     margin-top: 80px;
     margin-left: 25%;
 }
 
-#donate-amount-list {
+.list-container {
     display: flex;
     justify-content: space-between;
 }
@@ -107,6 +107,10 @@ input:focus {
 
 #card3 {
     background-color: rgba(255, 228, 196, 0.473);
+}
+
+#done-container {
+    display: flex;
 }
 
 #update-container {
